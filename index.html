@@ -1,13 +1,27 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<article id="index">
+	<div id="me">
+		<ul>
+			<li class="engineer">
+				<a href="{{ site.baseurl }}/engineer"><span>Engineer</span> Third-year engineering student</a>
+			</li>
+			<li class="ohio-state">
+				<a href="http://osu.edu"><span>Buckeye</span> Proud student of The Ohio State University</a>
+			</li>
+			<li class="delta-sig">
+				<a href="http://deltasigosu.org"><span>&Delta;&Sigma;&Phi;</span> Brother of Delta Sigma Phi Fraternity</a>
+			</li>
+	</div>
+	<div id="more" class="clearFix">
+		<ul>
+			<li><a href="http://twitter.com/justinsoltesz"><strong>@justinsoltesz</strong> tweets</a></li>
+			<li><a href="http://rctgo.com/"><strong>RCTgo</strong> founder</a></li>
+			<li><a href="http://mybb.com/"><strong>MyBB</strong> lead designer</a></li>
+			<li><a href="http://quizli.com"><strong>Quizli</strong> creator</a></li>
+		</ul>
+	</div>
+</article>
