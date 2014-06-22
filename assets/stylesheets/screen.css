@@ -118,8 +118,8 @@ body {
 
 #container > header h2 {
   background: #fff;
-  padding: 25px 15px;
-  border-bottom: 1px solid #ccc;
+  padding: 25px 0;
+  border-bottom: 2px solid #ddd;
   text-transform: uppercase;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -173,17 +173,20 @@ article #me {
 
 article #me ul {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   list-style: none;
 }
 
 article #me li {
   text-align: center;
-  margin: 30px 10px;
+  margin: 30px 0;
   background: #222;
-  width: 700px;
-  height: 140px;
+  width: 720px;
+  height: 160px;
   border: 10px solid #eee;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 article #me li.engineer {
@@ -210,6 +213,10 @@ article #me li a {
   text-shadow: #000 0 0 5px;
   background-color: rgba(0,0,0,0.1);
   font-weight: 300;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 article #me li a:hover {
@@ -424,24 +431,24 @@ div#copyright {
 
 /* ==|== media queries ====================================================== */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
   article #resume h2 small {
     float: none;
     display: block;
     margin-top: 7px;
   }
+
+  #container > header h1 .wrapper,
+  #container > header h2,
+  article {
+    width: 100%;
+  }
+
+  article #me li,
+  article #me li a {
+    width: 100%;
+  }
 }
-
-@media only screen and (min-width: 480px) {
-
-
-}
-
-@media only screen and (min-width: 768px) {
-
-}
-
-
 
 /* ==|== print styles ======================================================= */
  
