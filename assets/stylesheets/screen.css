@@ -85,7 +85,7 @@ body {
   background: #eee;
 	color: #fff;
 	/*text-align: left;*/
-	font-size: 3.0em;
+	font-size: 2.8em;
   margin: 0;
 	padding: 0;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -187,6 +187,7 @@ article #me li {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    background-position: center center;
 }
 
 article #me li.engineer {
