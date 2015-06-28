@@ -2,7 +2,7 @@
  * ==|== normalize ==========================================================
  */
 /*@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,700,900);*/
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:400,700,500,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,700,300,900);
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -78,24 +78,23 @@ body {
 #container > header {
   /*position: fixed;
   top: 0;*/
+  background: #f3f3f3;
   width: 100%;
   text-align: center;
 }
 
 #container > header h1 {
-  background: #eee;
-	color: #fff;
-	/*text-align: left;*/
-	font-size: 2.8em;
+	color: #fd0e35;
+	text-align: left;
+	font-size: 4em;
   margin: 0;
 	padding: 0;
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	font-weight: 500;
+	font-family: 'Roboto Slab';
+	font-weight: 300;
   letter-spacing: 2px;
 }
 
 #container > header h1 .wrapper {
-  background: #fd0e35;
   /*border-bottom: 2px solid #900;*/
   display: block;
   margin: auto auto;
@@ -105,37 +104,21 @@ body {
 
 #container > header h1 a:link,
 #container > header h1 a:visited {
-  color: #fff;
+  color: #fd0e35;
   background: none;
   border: none;
 }
 
 #container > header h1 a:hover,
 #container > header h1 a:active {
-  color: #ddd;
+  color: #333;
   background: none;
   border: none;  
 }
 
-#container > header h2 {
-  background: #fff;
-  padding: 25px 0;
-  border-bottom: 2px solid #ddd;
-  text-transform: uppercase;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  color: #333;
-  opacity: 0.8;
-  margin: 0;
-  width: 740px;
-  margin: auto auto;
-  text-align: center;
-}
-
 article {
   width: 740px;
-  padding: 0 0 20px;
-  /*border-bottom: 1px solid #ddd;*/
+  padding: 20px 0 20px;
   margin: auto auto;
 }
 
@@ -148,7 +131,7 @@ article#index h1 {
   font-size: 5em;
   font-weight: 300;
   border-bottom: 0;
-  color: #003a7f;
+  color: #fd0e35;
 }
 
 article#index h2 {
@@ -156,131 +139,14 @@ article#index h2 {
   color: #666;
 }
 
-article#engineering {
-
-}
-
-article p#introduction {
-  font-size: 1.3em;
-  font-weight: 500;
-  color: #333;
-  line-height: 1.6em;
-  letter-spacing: 1px;
-  border-bottom: 1px dotted #ccc;
-  padding: 40px 20px 20px 20px;
-  margin: 0;
-}
-
-article p#introduction strong {
-  font-weight: 700;
-}
-
-
-article #involvement {
-  overflow: hidden;
-  padding: 10px 0 0 0;
-}
-
-article #me {
-
-}
-
-article #me ul {
-  margin: 0;
-  padding: 0 10px;
-  list-style: none;
-}
-
-article #me li {
-  text-align: center;
-  margin: 20px 0;
-  background: #222;
-  width: 720px;
-  height: 160px;
-  border: 10px solid #eee;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    background-position: center center;
-}
-
-article #me li.engineer {
-  background-image: url("../images/engineer.png");
-}
-
-article #me li.ohio-state {
-  background-image: url("../images/ohio-state.png");
-}
-
-article #me li.delta-sig {
-  background-image: url("../images/delta-sig.png");
-}
-
-article #me li a {
-  display: block;
-  float: left;
-  width: 700px;
-  height: 140px;
-  background: none;
-  border: none;
-  color: #aaa;
-  font-size: 0.9em;
-  text-shadow: #000 0 0 5px;
-  background-color: rgba(0,0,0,0.1);
-  font-weight: 300;
-
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-article #me li a:hover {
-  background-color: rgba(0,0,0,0.4);
-}
-
-article #me li a span {
-  display: block;
-  font-size: 2.4em;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 40px 0 10px;
-  font-weight: 900;
-  letter-spacing: 4px;
-}
-
-article #more {
-  padding: 20px 20px 30px;
-}
-
-article #more ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-article #more ul li {
-  display: inline-block;
-  margin: 8px 10px 4px;
-}
-
-article #more ul li a {
-  padding: 3px;
-  color: #666;
-  font-size: 0.9em;
-}
-
-article #more ul li a strong {
-  color: #333;
-  font-size: 1.3em;
-  margin-right: 4px;
-  font-weight: 700;
-}
-
 article #resume {
   overflow: hidden;
   margin-bottom: 20px;
   line-height: 1.6;
+}
+
+article #resume p.introduction {
+  font-size: 1.2em;
 }
 
 article #resume p.contact {
@@ -299,10 +165,10 @@ article #resume p.contact span {
 article #resume h1 {
   /*text-transform: uppercase;*/
   font-family: 'Roboto Slab';
-  font-weight: 700;
+  font-weight: 400;
   border-bottom: 1px solid #ccc;
   padding: 8px;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #fd0e35;
 }
 
@@ -313,13 +179,21 @@ article #resume h2 {
 }
 
 article #resume h2 em {
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
-article #resume h2 small {
+article #resume h2 small,
+article #resume h3 small {
   float: right;
   color: #777;
+}
+
+article #resume h3 {
+  font-weight: 400;
+  padding: 0 8px;
+  margin: 8px 0 -4px 0;
+  font-size: 1.1em;
 }
 
 article #resume p {

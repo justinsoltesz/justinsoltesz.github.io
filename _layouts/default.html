@@ -38,12 +38,8 @@
   <div id="container">
     <header>
       <h1><span class="wrapper"><a href="/">{{ site.name }}</a></span></h1>
-      {% if page.url != "/" %}
-      <h2>{{ page.title }}</h2>
-      {% endif %}
     </header>
     {{ content }}
-    <div id="copyright">&copy; {{ site.time | date: '%Y' }} </div>
   </div> <!--! end of #container -->
 
 
