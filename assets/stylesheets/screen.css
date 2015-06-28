@@ -1,7 +1,8 @@
 /* HTML5 âœ° Boilerplate
  * ==|== normalize ==========================================================
  */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+/*@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,700,900);*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:400,700,500,300);
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -70,7 +71,7 @@ td { vertical-align: top; }
 
 body {
 	background: #fff;
-	font: 15px 'Lato', Helvetica, Arial, sans-serif;
+	font: 15px 'Roboto', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -88,7 +89,7 @@ body {
 	font-size: 2.8em;
   margin: 0;
 	padding: 0;
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 	font-weight: 500;
   letter-spacing: 2px;
 }
@@ -121,7 +122,7 @@ body {
   padding: 25px 0;
   border-bottom: 2px solid #ddd;
   text-transform: uppercase;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: 100;
   color: #333;
   opacity: 0.8;
@@ -134,12 +135,25 @@ body {
 article {
   width: 740px;
   padding: 0 0 20px;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   margin: auto auto;
 }
 
 article#index {
   /*width: 940px;*/
+}
+
+article#index h1 {
+  font-family: 'Roboto Slab';
+  font-size: 5em;
+  font-weight: 300;
+  border-bottom: 0;
+  color: #003a7f;
+}
+
+article#index h2 {
+  font-weight: 400;
+  color: #666;
 }
 
 article#engineering {
@@ -263,85 +277,6 @@ article #more ul li a strong {
   font-weight: 700;
 }
 
-/*article #involvement div {
-  display: block;
-  width: 430px;
-  padding-bottom: 100px;
-  background: #ddd;
-  margin: 10px 20px;
-  float: left;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-}
-
-article #involvement div a {
-  display: block;
-  color: #666;
-  font-weight: 300;
-  font-size: 1.6em;
-  padding: 10px;
-  border: 0;
-  background: #eee;
-}
-
-article #involvement div a:hover {
-  background: #ddd;
-}
-
-article #involvement div a span {
-  color: #333;
-  font-weight: 400;
-  margin: 0 3px;
-}
-
-article #involvement div a small {
-  font-size: 0.8em;
-  color: #888;
-}
-
-#involvement .ohio-state {
-  background-image: url("../images/involvement/ohio-state.png");
-}
-
-#involvement .civil-engineering {
-  background-image: url("../images/involvement/civil-engineering.png");
-}
-
-#involvement .delta-sig {
-  background-image: url("../images/involvement/delta-sig.png");
-}
-
-#involvement .rctgo {
-  background-image: url("../images/involvement/rctgo.png");
-}
-
-#involvement .mybb {
-  background-image: url("../images/involvement/mybb.png");
-}
-
-#involvement .quizli {
-  background-image: url("../images/involvement/quizli.png");
-}*/
-
-/*.engineer {
-  margin: 40px 0 20px;
-  text-align: center;
-  border-top: 1px solid #eee;
-  padding-top: 40px;
-}
-
-.engineer span {
-  text-transform: uppercase;
-  color: #666;
-  display: block;
-  margin-bottom: 4px;
-  font-size: 0.9em;
-}
-
-.engineer a {
-  font-weight: bold;
-}*/
-
 article #resume {
   overflow: hidden;
   margin-bottom: 20px;
@@ -362,7 +297,9 @@ article #resume p.contact span {
 }
 
 article #resume h1 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  font-family: 'Roboto Slab';
+  font-weight: 700;
   border-bottom: 1px solid #ccc;
   padding: 8px;
   margin-top: 30px;
