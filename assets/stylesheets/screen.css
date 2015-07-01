@@ -104,7 +104,7 @@ body {
   display: block;
   margin: auto auto;
   width: 740px;
-  padding: 30px 0;
+  padding: 30px;
 }
 
 #container > header h1 a:link,
@@ -274,6 +274,15 @@ div#copyright {
 /* ==|== media queries ====================================================== */
 
 @media screen and (max-width: 740px) {
+
+  #container > header h1 {
+    font-size: 2.5em;
+  }
+
+  article#index h1 { 
+    font-size: 3.5em;
+  }
+
   article #resume h2 small {
     float: none;
     display: block;
@@ -281,17 +290,11 @@ div#copyright {
   }
 
   #container > header h1 .wrapper,
-  #container > header h2,
   article {
     width: 100%;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-  }
-
-  article #me li,
-  article #me li a {
-    width: 100%;
   }
 }
 
