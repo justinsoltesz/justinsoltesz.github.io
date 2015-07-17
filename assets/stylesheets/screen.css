@@ -303,6 +303,15 @@ div#copyright {
     -moz-box-sizing: border-box;
   }
 
+  #container > header h1 small { 
+    display: block;
+    margin-left: 10px;
+  }
+
+  article#index ul.links {
+    margin-left: 10px;
+  }
+
   article#index ul.links li {
     display: block;
   }
