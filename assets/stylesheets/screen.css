@@ -182,6 +182,67 @@ article#index ul.links li a strong {
   font-weight: 700;
 }
 
+article#engineering {
+  text-align: center;
+}
+
+article#engineering h1 {
+  font-size: 3.3em;
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  margin: 20px 0 0 0;
+}
+
+article#engineering h1 strong {
+  font-weight: 400;
+  color: #fd0e35;
+}
+
+article#engineering h2 {
+  margin: 50px 0;
+  background: #eee;
+  padding: 50px 30px;
+  font-size: 2.4em;
+  font-weight: 300;
+  color: #666;
+}
+
+article#engineering h2 strong {
+  font-weight: 900;
+  color: #333;
+}
+
+article#engineering .experience {
+  text-align: left;
+}
+
+article#engineering .more {
+  text-align: left;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+article#engineering h3 {
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  color: #fd0e35;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+article#engineering h4 {
+  font-weight: 400;
+  font-size: 1.4em;
+  margin: 20px 0 0 0;
+}
+
+article#engineering p,
+article#engineering ul {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
 article #resume {
   overflow: hidden;
   margin-bottom: 20px;
