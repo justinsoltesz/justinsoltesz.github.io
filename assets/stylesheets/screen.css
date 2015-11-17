@@ -144,6 +144,17 @@ article#photos {
     -moz-box-sizing: border-box;
 }
 
+article#photos .album-grid {
+  
+}
+
+article#photos .instagram {
+  border-top: 1px solid #ddd;
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
 article#index h1 {
   font-family: 'Roboto Slab';
   font-size: 5em;
