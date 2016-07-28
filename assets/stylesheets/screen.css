@@ -16,9 +16,9 @@ body, button, input, select, textarea { font-family: "Lucida Grande", Tahoma, "T
 ::-moz-selection { background: #ddd; color: #333; text-shadow: none; }
 ::selection { background: #ddd; color: #333; text-shadow: none; }
 
-a { /*color: #007fd0;*/ color: #eee; border-bottom: 1px solid #fd0e35; text-decoration: none; }
+a { /*color: #007fd0;*/ color: #eee; border-bottom: 1px solid #00cc00; text-decoration: none; }
 a:visited { /*color: #007fd0;*/ color: #eee; }
-a:hover { /*color: #f37200;*/ color: #eee; border-bottom-color: #fd0e35; background-color: #fd0e35; }
+a:hover { /*color: #f37200;*/ color: #eee; border-bottom-color: #00cc00; background-color: #00cc00; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; text-decoration: none; }
 
@@ -89,7 +89,7 @@ body {
 }
 
 #container > header h1 {
-	color: #fd0e35;
+	color: #00cc00;
 	text-align: center;
 	font-size: 3.5em;
   margin: 0;
@@ -117,7 +117,7 @@ body {
 
 #container > header h1 a:link,
 #container > header h1 a:visited {
-  color: #fd0e35;
+  color: #00cc00;
   background: none;
   border: none;
 }
@@ -160,7 +160,7 @@ article#photos .go-back a {
 }
 
 article#photos .go-back a:hover {
-  color: #fd0e35;
+  color: #00cc00;
 }
 
 article#photos .image {
@@ -223,7 +223,7 @@ article#index h1 {
   font-weight: 300;
   padding: 0;
   margin: 200px 0 20px 0;
-  color: #fd0e35;
+  color: #00cc00;
   text-align: center;
 }
 
@@ -271,7 +271,7 @@ article#engineering h1 {
 
 article#engineering h1 strong {
   font-weight: 400;
-  color: #fd0e35;
+  color: #00cc00;
 }
 
 article#engineering h2 {
@@ -302,7 +302,7 @@ article#engineering .experience:last-child {
 article#engineering h3 {
   font-family: 'Roboto Slab';
   font-weight: 400;
-  color: #fd0e35;
+  color: #00cc00;
   font-size: 1.8em;
   margin: 0;
 }
