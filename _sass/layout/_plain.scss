@@ -1,0 +1,18 @@
+body {
+    background: $color-background;
+    color: $color-text-light;
+    font-family: $font-stack;
+}
+
+a:link,
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background: $color-secondary;
+    color: #fff;
+    text-decoration: none;
+}
