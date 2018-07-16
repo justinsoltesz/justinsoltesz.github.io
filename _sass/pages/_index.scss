@@ -15,20 +15,23 @@
     }
 
     &__major-link {
-        display: inline-block;
-        text-align: center;
 
-        &__link:link,
-        &__link:visited {
-            color: #fff;
-            background: $color-secondary;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
+        &__link {
+            display: inline-block;
+            text-align: center;
 
-        &__link:hover,
-        &__link:active {
-            background: $color-text-heading;
+            &:link,
+            &:visited {
+                color: #fff;
+                background: $color-secondary;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+
+            &:hover,
+            &:active {
+                background: $color-text-heading;
+            }
         }
     }
 
