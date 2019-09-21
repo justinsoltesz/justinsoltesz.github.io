@@ -6,13 +6,12 @@ body {
 
 a:link,
 a:visited {
-    color: #666;
+    color: #bbb;
     text-decoration: none;
 }
 
 a:hover,
 a:active {
-    background: $color-secondary;
-    color: #fff;
+    color: $color-secondary;
     text-decoration: none;
 }

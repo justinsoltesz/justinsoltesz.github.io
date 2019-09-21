@@ -1,9 +1,16 @@
 .index {
     padding: 0 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    margin: 0 0 0.2em 0;
+    border-bottom: 10px solid $color-primary;
+
+    @include bp-large {
+        flex-direction: row;
+        margin: 1em 0 0.2em 0;
+    }
 
     &__title {
         font-size: 100px;
@@ -11,7 +18,14 @@
         font-family: $font-stack-title;
         color: $color-text-heading;
         border-bottom: 3px solid $color-border;
-        margin: 1em 0 0.2em 0;
+
+        @include bp-large {
+            width: 70%;
+            border-right: 3px solid $color-border;
+            border-bottom: none;
+            padding-right: 50px;
+            text-align: right;
+        }
     }
 
     &__major-link {
@@ -35,28 +49,50 @@
         }
     }
 
+    &__link-title {
+        text-transform: uppercase;
+        color: $color-secondary;
+        font-weight: 300;
+        font-size: 1em;
+    }
+
     &__nav {
+        margin-bottom: 50px;
+
+        @include bp-large {
+            width: 30%;
+            padding-left: 50px;
+            margin: 0;
+        }
 
         &__links {
             list-style: none;
-            margin: none;
+            margin: 0;
             padding: 0;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+
+            @include bp-large {
+                align-items: left;
+                margin-left: 15px;
+            }
 
             &__bit {
                 display: block;
-                margin: 10px 0;
-
-                @include bp-medium {
-                    display: inline-block;
-                    margin: 0 10px;
-                }
+                margin: 5px 0;
 
                 &__link {
-                    padding: 10px;
-                    border-radius: 3px;
+                    padding: 5px;
                 }
             }
         }
     }
+}
+
+.small-text {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #666;
 }
