@@ -1,17 +1,20 @@
 body {
-    background: $color-background;
+    background-color: $color-background;
+    // background-image: url("../images/columbus_sunrise2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: $color-text-light;
     font-family: $font-stack;
 }
 
 a:link,
 a:visited {
-    color: #bbb;
+    color: $color-text-link;
     text-decoration: none;
 }
 
 a:hover,
 a:active {
-    color: $color-secondary;
+    color: $color-fourth;
     text-decoration: none;
 }
