@@ -17,7 +17,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <script defer src="https://files.rctgo.com/fontawesome/js/all.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var classes = ["color-1", "color-2", "color-3", "color-4", "color-5", "color-6", "color-7"];
+
+            $("#container").each(function(){
+                $(this).addClass(classes[~~(Math.random()*classes.length)]);
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="container">

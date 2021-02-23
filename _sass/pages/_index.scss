@@ -28,7 +28,7 @@
         margin: 100px 0;
     }
 
-    &__major-link {
+    .major-link {
 
         &__link {
             display: inline-block;
@@ -123,4 +123,67 @@
     font-size: 0.7em;
     text-transform: uppercase;
     color: #666;
+}
+
+@mixin color-theme(
+    $color: $color-primary) { // accent color
+
+    @content;
+
+    .links {
+        border-left-color: $color;
+    }
+
+    .index {
+
+        &__title {
+            color: $color;
+        }
+
+        .major-link {
+
+            &__link {
+
+                &:hover,
+                &:active {
+                    color: $color;
+                }
+            }
+        }
+    }
+}
+
+#container {
+
+    &.color-1 {
+        @include color-theme($color-1);
+    }
+
+    &.color-2 {
+        @include color-theme($color-2);
+    }
+
+    &.color-3 {
+        @include color-theme($color-3);
+    }
+
+    &.color-4 {
+        @include color-theme($color-4);
+    }
+
+    &.color-5 {
+        @include color-theme($color-5);
+    }
+
+    &.color-6 {
+        @include color-theme($color-6);
+    }
+
+    &.color-7 {
+        @include color-theme($color-7);
+    }
+
+    &.color-8 {
+        @include color-theme($color-8);
+    }
 }
