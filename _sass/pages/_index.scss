@@ -64,10 +64,12 @@
     margin: 20px 0;
 
     &__title {
-        margin: 10px 0 0 0;
+        margin: 10px 0 10px 0;
+        font-weight: 900;
     }
 
     &__text {
+        margin-top: 0;
         color: $color-text-alt;
     }
 }
