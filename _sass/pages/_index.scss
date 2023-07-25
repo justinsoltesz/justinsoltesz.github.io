@@ -1,16 +1,10 @@
 .index {
-    // background-image: linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,1));
     padding: 0 10%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: column;
-    margin: 0 0 0.2em 0;
-
-    // @include bp-large {
-    //     flex-direction: row;
-    //     margin: 1em 0 0.2em 0;
-    // }
+    max-width: 700px;
+    margin: 0 auto 0.2em auto;
 
     &__title {
         font-size: 5em;
@@ -19,110 +13,126 @@
         color: $color-text-heading;
         border-bottom: 3px solid $color-border;
         margin: 40px 0 30px 0;
+        width: 100%;
     }
 
     &__body {
         text-align: center;
         font-size: 2em;
-        opacity: 0.5;
         margin: 100px 0;
     }
-
-    .major-link {
-
-        &__link {
-            display: inline-block;
-            text-align: center;
-
-            &:link,
-            &:visited {
-                color: #fff;
-                background: $color-secondary;
-                padding: 10px 20px;
-                border-radius: 5px;
-            }
-
-            &:hover,
-            &:active {
-                background: $color-text-heading;
-            }
-        }
-    }
-
-    &__link-title {
-        text-transform: uppercase;
-        color: $color-secondary;
-        font-weight: 300;
-        font-size: 1em;
-
-        &--hidden {
-            display: none;
-        }
-    }
-
-    &__nav {
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: row;
-    }
 }
 
-.nav {
+.item {
+    border-bottom: 2px solid $color-border;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 
-    &__section:first-child {
+    &__title {
+        font-family: $font-stack-title;
+        font-size: 1.6em;
+        margin: 0;
+    }
 
-        .links {
-            border-left: 0;
-            margin-left: 0;
-            padding-left: 0;
+    &--transportation {
+
+        .item__title {
+            font-size: 2.4em;
         }
-    }
-}
 
-.links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.4em;
-    align-items: center;
-    border-left: 2px solid $color-primary;
-    margin-left: 20px;
-    padding-left: 20px;
-
-    &__bit {
-        display: block;
-        margin: 5px 15px 5px 6px;
-    }
-
-    &__link {
-        padding: 5px;
-    }
-
-    &__icon {
-
-    }
-
-    &__text {
-
-        &--hidden {
-            display: none;
+        .item__body {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: $color-text-alt;
+            margin: 20px 0 0 0;
         }
     }
 
     &--social {
+        padding-bottom: 20px;
+    }
 
-        .links__bit {
-            margin: 5px 6px;
-        }
+    &--stuff {
+        border-bottom: none;
     }
 }
 
-.small-text {
-    font-size: 0.7em;
-    text-transform: uppercase;
-    color: #666;
+.stuff {
+    border: 1px solid $color-border;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 0;
+
+    &__title {
+        margin: 10px 0 0 0;
+    }
+
+    &__text {
+        color: $color-text-alt;
+    }
+}
+
+.social-links {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__bit {
+        width: 100%;
+        
+        @include bp-small {
+            width: 50%;
+        }
+
+        @include bp-large {
+            width: 33%;
+        }
+
+    }
+
+    &__link {
+        display: block;
+        // padding: 0 15px 15px 0;
+        padding: 5px 0;
+        
+        &:hover {
+
+            .social-links__name,
+            .social-links__handle {
+                visibility: visible;
+            }
+        }
+    }
+
+    &__container {
+        display: block;
+        padding: 8px 12px;
+        border: 1px solid $color-background;
+        border-radius: 10px;
+    }
+
+    &__icon {
+        margin: 0 4px -3px 0;
+        font-size: 24px;
+    }
+
+    &__name {
+        font-size: 1.1em;
+    }
+
+    &__handle {
+        display: block;
+        font-size: 0.8em;
+        opacity: 0.5;
+        margin: 4px 0 0 38px;
+        visibility: hidden;
+
+        @include bp-medium-max {
+            display: none;
+        }
+    }
 }
 
 @mixin color-theme(
@@ -147,6 +157,35 @@
                 &:hover,
                 &:active {
                     color: $color;
+                }
+            }
+        }
+    }
+
+    .stuff {
+
+        &__title {
+            a:link,
+            a:visited {
+                color: $color;
+            }
+
+            a:hover,
+            a:active {
+                color: $color-fourth;
+            }
+        }
+    }
+
+    .social-links {
+
+        &__link {
+            
+            &:hover,
+            &:active {
+
+                .social-links__container {
+                    border-color: $color;
                 }
             }
         }
