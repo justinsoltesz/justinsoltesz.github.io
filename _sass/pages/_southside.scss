@@ -1,0 +1,301 @@
+@import "document";
+
+.southside-heading {
+    border-top: 10px solid $color-secondary;
+    padding: 20px 30px 30px 30px;
+    margin: 0 0 30px 0;
+    background: $color-primary;
+    text-align: center;
+
+    &__title {
+        color: $color-text-invert;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 1.2em;
+        margin: 0 0 15px 0;
+
+        em {
+            font-style: normal;
+            font-weight: bold;
+        }
+    }
+
+    &__subtitle {
+        color: $color-text-invert;
+        font-family: $font-stack-title;
+        font-size: 2.4em;
+        margin: 0;
+    }
+}
+
+.southside {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto 0.2em auto;
+
+    &--wide {
+        padding: 0 5%;
+        max-width: none;
+    }
+
+    &__body {
+        text-align: center;
+        font-size: 2em;
+        margin: 100px 0;
+    }
+
+    .page-intro {
+        font-size: 1.2em;
+        line-height: 1.8;
+        color: $color-secondary;
+        margin-bottom: 20px;
+
+        &__title {
+            font-family: $font-stack-title;
+            font-size: 2.5em;
+            margin: 0;
+            padding: 0;
+            color: $color-secondary;
+        }
+
+        &__cssac-website {
+            font-size: 0.8em;
+
+            @include bp-large {
+                float: right;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .item {
+        border-bottom: 2px solid $color-border;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+
+        &__title {
+            font-family: $font-stack-title;
+            color: $color-primary;
+            font-size: 2em;
+            margin: 0;
+        }
+
+        &--transportation {
+
+            .item__title {
+                font-size: 2.4em;
+            }
+
+            .item__body {
+                font-size: 1.2em;
+                line-height: 1.8;
+                color: $color-text-alt;
+                margin: 20px 0 0 0;
+            }
+        }
+
+        &--social {
+            padding-bottom: 20px;
+        }
+
+        &--stuff {
+            border-bottom: none;
+        }
+    }
+
+    .stuff {
+        border-top: 1px solid $color-border;
+        padding: 20px 0;
+        margin: 10px 0;
+
+        &__title {
+            margin: 10px 0 15px 0;
+            font-weight: 900;
+        }
+
+        &__text {
+            margin: 0;
+            line-height: 1.8;
+            color: $color-text-alt;
+        }
+        
+        &__button {
+            margin-top: 15px;
+        }
+
+        &__link {
+        }
+
+        &__link-type {
+            margin: 10px 0 0 0;
+            display: block;
+            color: $color-text-light;
+
+            @include bp-large {
+                display: inline-block;
+                margin: 0 0 0 10px;
+            }
+        }
+
+        &__link-coming-soon {
+            color: $color-text-light;
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}
+
+.page-heading {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid $color-border;
+
+    &__title {
+        font-size: 3em;
+        font-family: $font-stack-title;
+        color: $color-secondary;
+        margin: 0;
+    }
+
+    &__go-back {
+        
+        .button {
+            margin-bottom: 16px;
+        }
+
+        @include bp-large {
+
+            .button {
+                float: right;
+                margin: 6px 0 16px 16px;
+            }
+        }
+    }
+}
+
+.jump-to {
+    text-align: left;
+    margin: -10px 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px dotted #ddd;
+    color: #999;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+
+    @include bp-large {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    &--top-border {
+        border-top: 2px solid $color-border;
+        margin: 0 0 20px 0;
+        padding: 20px;
+    }
+
+    &__prompt {
+        margin: 0 8px;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+
+    &__link {
+        margin: 0 8px;
+
+        &:link,
+        &:visited {
+            color: #666;
+        }
+
+        &:hover,
+        &:active {
+            text-decoration: underline;
+        }
+    }
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &:link,
+    &:visited {
+        color: $color-text-invert;
+        background: $color-fourth;
+    }
+
+    &:hover,
+    &:active {
+        color: $color-text-invert;
+        background: $color-third;
+        text-decoration: none;
+    }
+
+    &--light {
+        
+        &:link,
+        &:visited {
+            background: #ddd;
+            color: #666;
+        }
+
+        &:hover,
+        &:active {
+            background: $color-third;
+            color: $color-text-invert;
+        }
+    }
+
+    &__icon {
+        margin-right: 12px;
+
+        &--left {   
+        }
+        
+        &--right {
+            margin-right: 0;
+            margin-left: 8px;
+        }
+    }
+}
+
+.status-container {
+    display: block;
+
+    @include bp-medium {
+        float: right;
+        display: inline-block;
+    }
+}
+
+.status {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+
+    @include bp-medium {
+        margin: 0 0 0 15px;
+    }
+
+    &--in-progress {
+        border-color: $color-fourth;
+        color: $color-fourth;
+    }
+}

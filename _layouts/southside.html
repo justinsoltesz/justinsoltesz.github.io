@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    {% if page.meta_description %}
+    <meta name="description" content="{{ page.meta_description }}" />
+    {% endif %}
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/southside.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script defer src="https://files.rctgo.com/fontawesome/js/all.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="southside-heading">
+            <h1 class="southside-heading__title">Columbus <em>South Side</em> Area Commission</h1>
+            <h2 class="southside-heading__subtitle">Public Services Committee</h2>
+        </div>
+        {{ content }}
+    </div>
+</body>
+</html>
