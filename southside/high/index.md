@@ -55,7 +55,7 @@ Here's what [FHWA has to say about four-lane sections](https://highways.dot.gov/
 ODOT completed a [traffic count on South High Street south of Greenlawn Avenue in 2022](http://odot.ms2soft.com/tcds/set_session.asp?loc=odot&ext=y&LOCAL_ID=2725), which estimated South High Street currently carries approximately 20,810 vehicles per day. While that may sound like a lot, FHWA guidance says roadways like South High Street with four lanes (two travel lanes in each direction) are good candidates for a roadway reconfiguration to three lanes (one travel lane in each direction with a center turn lane) if traffic volumes are less than 25,000 vehicles per day. South High Street is well below that threshold. In fact, the excess capacity is one of the reasons drivers are able to drive so fast, and why South High Street is so dangerous as a result.
 
 # How fast is traffic going?
-ODOT also [completed a speed study](https://odot.public.ms2soft.com/tcds/tcount_gcs.asp?offset=0&id=12983104&a=25&jump_date=2022-07-07&sdate=2022-07-07&classDate=&speedDate=2022-07-07&gapDate=&local_id_dir=2725&count_type=SPEED) when they counted vehicles in 2022. It found:
+ODOT also completed a speed study when they counted vehicles in 2022. It found:
 
 - **73%** of drivers were exceeding the 35 mph speed limit
 - **38%** of drivers were exceeding the speed limit by **more than 5 mph**
