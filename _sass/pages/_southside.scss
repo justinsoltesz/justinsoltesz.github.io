@@ -69,6 +69,15 @@
                 margin-top: 15px;
             }
         }
+
+        p {
+            a {
+                &:hover,
+                &:active {
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 
     .item {
@@ -130,14 +139,17 @@
         }
 
         &__link-type {
-            margin: 10px 0 0 0;
-            display: block;
-            color: $color-text-light;
+            margin-left: 16px;
+            font-size: 0.8em;
+            opacity: 0.7;
+            // margin: 10px 0 0 0;
+            // display: block;
+            // color: $color-text-light;
 
-            @include bp-large {
-                display: inline-block;
-                margin: 0 0 0 10px;
-            }
+            // @include bp-large {
+                // display: inline-block;
+                // margin: 0 0 0 10px;
+            // }
         }
 
         &__link-coming-soon {
@@ -225,6 +237,7 @@
     border-radius: 5px;
     font-size: 1.1em;
     padding: 8px 16px;
+    margin-right: 16px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
