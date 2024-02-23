@@ -28,4 +28,4 @@ Clicking on a location will provide more information about the treatments at tha
 *The map is a work in progress and is not guaranteed to be completely accurate.*
 
 # Bike Network
-The City of Columbus is currently working on **[Bike Plus](https://storymaps.arcgis.com/stories/fa0d7f19855a46f5a67ad741da665439?header=false&cover=false)**, a plan to create a safe, connected, and comfortable network for people to bike, scooter, skate, and roll in the city. We are looking forward to a plan to expand upon and improve our existing bikeways to create a complete network of bikeways on the South Side.
+The City of Columbus is currently working on **[Bike Plus](https://storymaps.arcgis.com/stories/fa0d7f19855a46f5a67ad741da665439?header=false&cover=false)**, a plan to create a safe, connected, and comfortable network for people to bike, scooter, skate, and roll in the city. We are looking forward to a plan to expand upon and improve our existing bikeways to create a complete network of safe and comfortable bikeways on the South Side.
