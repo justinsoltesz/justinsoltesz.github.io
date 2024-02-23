@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 1050px;
     margin: 0 auto 0.2em auto;
 
     &--wide {
@@ -81,7 +81,6 @@
     }
 
     .item {
-        border-bottom: 2px solid $color-border;
         padding-bottom: 20px;
         margin-bottom: 20px;
 
@@ -90,43 +89,38 @@
             color: $color-primary;
             font-size: 2em;
             margin: 0;
-        }
-
-        &--transportation {
-
-            .item__title {
-                font-size: 2.4em;
-            }
-
-            .item__body {
-                font-size: 1.2em;
-                line-height: 1.8;
-                color: $color-text-alt;
-                margin: 20px 0 0 0;
-            }
-        }
-
-        &--social {
-            padding-bottom: 20px;
-        }
-
-        &--stuff {
-            border-bottom: none;
+            padding: 0 0 10px 0;
+            border-bottom: 2px solid $color-border;
         }
     }
 
+    .stuff-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;
+        padding-top: 30px;
+    }
+
     .stuff {
-        border-top: 1px solid $color-border;
-        padding: 20px 0;
-        margin: 10px 0;
+        background: $color-background-accent;
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+
+        @include bp-large {
+            width: 48%;
+        }
 
         &__title {
-            margin: 10px 0 15px 0;
+            margin: 0 0 15px 0;
             font-weight: 900;
         }
 
         &__text {
             margin: 0;
+            font-size: 1em;
             line-height: 1.8;
             color: $color-text-alt;
         }
