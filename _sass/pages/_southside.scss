@@ -29,12 +29,16 @@
 }
 
 .southside {
-    padding: 0 10%;
+    padding: 0 6%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     max-width: 1050px;
     margin: 0 auto 0.2em auto;
+
+    @include bp-medium {
+        padding: 0 10%;
+    }
 
     &--wide {
         padding: 0 5%;
