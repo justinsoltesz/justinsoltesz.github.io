@@ -36,15 +36,15 @@ Here is a sampling of just a few recent crashes on South High Street.
 # What can be done?
 The good news: there’s plenty of space to reconfigure the street (commonly referred to as a "[road diet](https://highways.dot.gov/safety/other/road-diets/road-diet-desk-reference/1-road-diet-overview)") to provide a dedicated left turn lane, dedicated space for people biking, and keep on-street parking. Reducing to one through lane in each direction would eliminate the dangerous weaving between lanes that occurs today and allow the addition of a center left turn lane to give space for drivers to wait to turn left. This would also allow for the addition of refuge islands for people crossing the street at certain crosswalks. This configuration would slow down traffic and make the street safer for *everyone* &mdash; people driving, walking, rolling, biking, and scootering.
 
-This isn't hyperbole. This kind of roadway reconfiguration is recognized by the Federal Highway Administration (FHWA) as a [Proven Safety Countermeasure](https://highways.dot.gov/safety/proven-safety-countermeasures), meaning it has been shown to reduce traffic crashes, especially fatalities and serious injuries.
+This kind of roadway reconfiguration is recognized by the Federal Highway Administration (FHWA) as a [Proven Safety Countermeasure](https://highways.dot.gov/safety/proven-safety-countermeasures), meaning it has been shown to reduce traffic crashes, especially fatalities and serious injuries.
 
-Here's an image of what it could look like &mdash; all possible without moving the existing curbs.
+<!--Here's an image of what it could look like &mdash; all possible without moving the existing curbs.
 
 <a href="https://files.soltesz.xyz/southside/high/south-high-possible.png"><img src="https://files.soltesz.xyz/southside/high/south-high-possible.png" alt="Cross section showing a potential reconfiguration of South High Street, with a 7-foot wide bike lane in each direction separated from parked cars/traffic with a 4-foot wide curbed median. There is a parking lane on one side of the road, with 10-foot wide travel lanes in each direction and a 10-foot wide center turn lane." class="page-figure__image"></a>
 
 While the image above shows concrete medians between the bike lane and travel/parking lanes, this reconfiguration could be implemented with quick-build materials like flex posts and concrete parking stops (similar to [what was done on East Long Street downtown](https://www.nbc4i.com/news/local-news/columbus/downtown-columbus-gets-small-stretch-of-new-protected-bike-lane/) and is [planned for East Broad Street on the Near East Side](https://columbusunderground.com/protected-bike-lanes-coming-to-east-broad-street-bw1/)) until funding for more permanent materials is available.
 
-This is also just one possible configuration; the parking lane could alternate sides of the street (similar to Parsons Avenue), and other adjustments could be made based on context.
+This is also just one possible configuration; the parking lane could alternate sides of the street (similar to Parsons Avenue), and other adjustments could be made based on context.-->
 
 ## About that four-lane section...
 Here's what [FHWA has to say about four-lane sections](https://highways.dot.gov/safety/other/road-diets/road-diet-informational-guide/2-why-consider-road-diet):
@@ -52,7 +52,7 @@ Here's what [FHWA has to say about four-lane sections](https://highways.dot.gov/
 > On a four-lane undivided road, vehicle speeds can vary between travel lanes, and drivers frequently slow or change lanes due to slower or stopped vehicles (e.g., vehicles stopped in the left lane waiting to turn left). Drivers may also weave in and out of the traffic lanes at high speeds. In contrast, on three-lane roads with TWLTLs the vehicle speed differential is limited by the speed of the lead vehicle in the through lane, and through vehicles are separated from left-turning vehicles. Thus, Road Diets can reduce the vehicle speed differential and vehicle interactions, which can reduce the number and severity of vehicle-to-vehicle crashes. Reducing operating speed decreases crash severity when crashes do occur.
 
 # What about traffic?
-ODOT completed a [traffic count on South High Street south of Greenlawn Avenue in 2022](http://odot.ms2soft.com/tcds/set_session.asp?loc=odot&ext=y&LOCAL_ID=2725), which estimated South High Street currently carries approximately 20,810 vehicles per day. While that may sound like a lot, FHWA guidance says roadways like South High Street with four lanes (two travel lanes in each direction) are good candidates for a roadway reconfiguration to three lanes (one travel lane in each direction with a center turn lane) if traffic volumes are less than 25,000 vehicles per day. South High Street is well below that threshold. In fact, the excess capacity is one of the reasons drivers are able to drive so fast, and why South High Street is so dangerous as a result.
+ODOT completed a [traffic count on South High Street south of Greenlawn Avenue in 2022](http://odot.ms2soft.com/tcds/set_session.asp?loc=odot&ext=y&LOCAL_ID=2725), which estimated South High Street currently carries approximately 20,810 vehicles per day. FHWA guidance says roadways like South High Street with four lanes (two travel lanes in each direction) are good candidates for a roadway reconfiguration to three lanes (one travel lane in each direction with a center turn lane) if traffic volumes are less than 25,000 vehicles per day. This excess capacity is one of the reasons drivers are able to drive so fast, and why South High Street is so dangerous as a result.
 
 # How fast is traffic going?
 ODOT also completed a speed study when they counted vehicles in 2022. It found:
@@ -62,6 +62,6 @@ ODOT also completed a speed study when they counted vehicles in 2022. It found:
 - More than **600** drivers were driving **50 mph or faster**
 - Speeds as high as **80+ mph** were logged
 
-Dangerously high speeds didn't just occur in the overnight hours when traffic is lightest; speeds as high as 70 mph were logged even in mid-day hours.
+The highest speeds didn't just occur in the overnight hours when traffic is lightest; speeds as high as 70 mph were logged even in mid-day hours.
 
 <a href="/southside/high/speed" class="button"><i class="fas fa-tachometer-alt-fast button__icon button__icon--left"></i> See full hour-by-hour speed count</a>
