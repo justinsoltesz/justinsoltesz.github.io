@@ -27,11 +27,13 @@ Here is a sampling of just a few recent crashes on South High Street.
     <iframe class="youtube-video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/jxm6QUfLYss?si=-jx5u225T4eLdN40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<a href="https://files.soltesz.xyz/southside/high/crash01.JPG"><img src="https://files.soltesz.xyz/southside/high/crash01.JPG" alt="" class="page-figure__image"></a>
+<a href="https://files.soltesz.xyz/southside/high/crash01.JPG"><img src="https://files.soltesz.xyz/southside/high/crash01.JPG" alt="Photo of three cars crashed along the side of South High Street." class="page-figure__image"></a>
 
-<a href="https://files.soltesz.xyz/southside/high/crash02.jpeg"><img src="https://files.soltesz.xyz/southside/high/crash02.jpeg" alt="" class="page-figure__image"></a>
+<a href="https://files.soltesz.xyz/southside/high/crash02.jpeg"><img src="https://files.soltesz.xyz/southside/high/crash02.jpeg" alt="Photo of an overturned car on South High Street." class="page-figure__image"></a>
 
-<a href="https://files.soltesz.xyz/southside/high/crash03.JPG"><img src="https://files.soltesz.xyz/southside/high/crash03.JPG" alt="" class="page-figure__image"></a>
+<a href="https://files.soltesz.xyz/southside/high/crash03.JPG"><img src="https://files.soltesz.xyz/southside/high/crash03.JPG" alt="Photo of two cars crashed along the side of South High Street." class="page-figure__image"></a>
+
+<a href="https://files.soltesz.xyz/southside/high/crash05.JPG"><img src="https://files.soltesz.xyz/southside/high/crash05.JPG" alt="Photo of two cars crashed along the side of South High Street. Crash debris can be seen in the middle of South High Street." class="page-figure__image"></a>
 
 # What can be done?
 The good news: there’s plenty of space to reconfigure the street (commonly referred to as a "[road diet](https://highways.dot.gov/safety/other/road-diets/road-diet-desk-reference/1-road-diet-overview)") to provide a dedicated left turn lane, dedicated space for people biking, and keep on-street parking. Reducing to one through lane in each direction would eliminate the dangerous weaving between lanes that occurs today and allow the addition of a center left turn lane to give space for drivers to wait to turn left. This would also allow for the addition of refuge islands for people crossing the street at certain crosswalks. This configuration would slow down traffic and make the street safer for *everyone* &mdash; people driving, walking, rolling, biking, and scootering.
